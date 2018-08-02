@@ -1,0 +1,8 @@
+clc
+clear all
+close all
+n=-10:1:10
+z=[zeros(1,10),1,zeros()
+
+stem(n,z)
+grid on
