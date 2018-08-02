@@ -1,13 +1,6 @@
 %incomplete
 clc
 clear all
-n=-100:1:100
-x=impulse(n)
-y=impulse(n-4)
-
-
-subplot(2,1,1)
-stem(n,x)
-
-subplot(2,1,2)
-stem(n,y)
+n = -10:10;
+x = 4.*((n >=-5).*(n <=5));
+stem(n,x);
