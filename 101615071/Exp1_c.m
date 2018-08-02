@@ -1,3 +1,4 @@
+%incomplete
 clc
 clear all
 n=-100:1:100
